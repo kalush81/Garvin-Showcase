@@ -1,0 +1,38 @@
+/* img {
+    -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+} */
+.gatsby-image-wrapper img:hover {
+    -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  /* transform: rotate(20deg); */
+    
+}
+.gatsby-image-wrapper img {
+    -webkit-transition: all .5s ease 0s!important;
+    transition: all .5s ease 0s!important;
+}
+
+.parrent {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.parrent > div {
+    width: 40%;
+    height: 40%;
+    padding: 0;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+.my-quote {
+    font-size: 24px;
+}
+@media (max-width: 500px) {
+    .my-quote {
+        font-size: 18px;
+    }
+    
+}
